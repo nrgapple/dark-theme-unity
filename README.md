@@ -1,4 +1,4 @@
-# How to get dark theme 2018.4.4  
+# How to get dark theme Unity
 
 (Found in this post: https://www.reddit.com/r/Unity3D/comments/a687ua/help_needed_unity_20183_dark_editor_theme/)
 
