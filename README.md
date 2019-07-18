@@ -22,7 +22,7 @@
 6. Open Unity!
 
 
-## Working with the registry in cmd
+## Working with the registry in Powershell
 
 https://blog.netwrix.com/2018/09/11/how-to-get-edit-create-and-delete-registry-keys-with-powershell/
 
@@ -46,8 +46,15 @@ Sets the value of property to 1.
 > Set-ItemProperty -path "HKCU:\Software\Unity Technologies\Unity Editor 5.x" -Name UserSkin_h307680651 -value 1
 ```
 
-Could be usable to add to registry:
+Get the value of the property
 
 ``` Powershell
+> Get-ItemProperty -path "HKCU:\Software\Unity Technologies\Unity Editor 5.x" -Name UserSkin_h307680651
+```
+
+
+Could be usable to add to registry for cmd:
+
+``` Cmd
 > reg add "HKEY_CURRENT_USER\Software\Unity Technologies\Unity Editor 5.x" /v UserSkin_h307680651 /t REG_DWORD /d "1" /f
 ```
