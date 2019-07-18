@@ -4,7 +4,9 @@
 
 1. Download Hex Editor (admin): https://mh-nexus.de/en/downloads.php?product=HxD20
 
-2. Open Unity.exe and find `75 04 33 C0 EB 02 8B 03 48 8B 4C`
+2. Open Unity.exe and find  
+`75 04 33 C0 EB 02 8B 03 48 8B 4C` (2018.4.4)  
+`84 C0 75 08 33 C0 48 83 C4 30 5B C3 8B 03 48` (2017.4.18f1)
 
 3. Change `75` to `74`
 
